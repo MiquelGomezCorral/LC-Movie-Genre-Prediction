@@ -2,16 +2,22 @@
 
 import argparse
 import dotenv
-from src.config import Configuration, args_to_config
+from maikol_utils.other_utils import args_to_dataclass
+from src.config import Configuration
+from src.scripts import example
 
 def cmd_read_extract(args: argparse.Namespace):
     """Call read_extract_from_config_list with the given args."""
-    CONFIG: Configuration = args_to_config(args)
+    CONFIG: Configuration = args_to_dataclass(args, Configuration)
     ...
+
+def cmd_train(args):
+    CONFIG: Configuration = args_to_dataclass(args, Configuration)
+    example(CONFIG)
 
 def cmd_test(args):
     """Call test functions."""
-    ...
+    example()
 
 # ======================================================================================
 #                                       ARGUMENTS
@@ -36,6 +42,16 @@ if __name__ == "__main__":
         "-l", "--use_llm", action="store_false", default=True, help="Disable LLM extraction"
     )
     p_read.set_defaults(func=cmd_read_extract)
+
+    # ======================================================================================
+    #                                       train
+    # ======================================================================================
+    p_train = subparsers.add_parser("train", help="Train script with any code")
+    p_train.add_argument(
+        "-r", "--run_name", type=str, default=None, help="Name of run"
+    )
+    p_train.set_defaults(func=cmd_train)
+
 
     # ======================================================================================
     #                                       test
