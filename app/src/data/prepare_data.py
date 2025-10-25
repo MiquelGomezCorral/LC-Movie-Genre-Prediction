@@ -4,8 +4,10 @@ from sklearn.preprocessing import MultiLabelBinarizer
 from sklearn.feature_extraction.text import TfidfVectorizer, CountVectorizer
 from sklearn.model_selection import train_test_split
 import re
+import nltk
 from nltk.stem import PorterStemmer
 from nltk.tokenize import word_tokenize
+from nltk.corpus import stopwords
 
 def prepare_labels(labels: list) -> np.ndarray:
     mlb = MultiLabelBinarizer()
@@ -13,25 +15,24 @@ def prepare_labels(labels: list) -> np.ndarray:
 
     return y
 
-
+nltk.download('stopwords')
 stemmer = PorterStemmer()
+stop_words = stopwords.words('english')
+
 def tokenizer_text(text):
-    text = [re.sub(r'[^\w\s]', ' ', phrase) for phrase in text]
-    tokens = word_tokenize(text.lower())
-    stems = [stemmer.stem(token) for token in tokens if token.isalnum()]
-    return stems
+    text = ''.join([re.sub(r'[^\w\s]', ' ', phrase) for phrase in text])
+    text = word_tokenize(text)
+    text = [stemmer.stem(word) for word in text if word.isalpha() and word not in stop_words]
+    return text
     
 def prepare_text(text: list) -> np.ndarray:
     vectorizer = TfidfVectorizer(
         analyzer='word',
-        max_features=22000,
+        max_features=15000,
         ngram_range=(1, 2),
         lowercase=True,
-        stop_words='english',
         norm='l2',
-        tokenizer=tokenizer_text,
-        stop_words="english"
-        
+        tokenizer=tokenizer_text,        
     )
 
     X = vectorizer.fit_transform(text)
