@@ -12,7 +12,7 @@ from argparse import Namespace
 class Configuration:
     """Configuration class for the project."""
 
-    DATA_FOLDER: str = "data/"
+    DATA_FOLDER: str = os.path.join("..", "data")
     PROCESSED_FOLDER: str = os.path.join("..", "data", "processed")
     LOGS_FOLDER: str = os.path.join("..", "logs")
     MODELS_FOLDER: str = os.path.join("..", "models")
@@ -26,6 +26,8 @@ class Configuration:
 
     label: str = "genre"
     columns: list = field(default_factory=list)
+
+    val_split: float = 0.15
 
     # ================================== EXPERIMENTS ======================================
     run_name: str = "lstm_model"

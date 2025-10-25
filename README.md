@@ -17,4 +17,9 @@ Trabajo de LC
  # install requirements
  pip install uv
  uv pip install -r requirements.txt
+
+ # for notebooks
+ pip install ipykernel
+ python -m ipykernel install --user --name=venv --display-name "Python (venv)"
+
 ```
