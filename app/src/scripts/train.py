@@ -7,10 +7,10 @@ from sklearn.linear_model import LogisticRegression, SGDClassifier
 def train(X_train, y_train):
     xgb_model = OneVsRestClassifier(
         LogisticRegression(
-            max_iter=10000,
-            C=0.5,  # Regularización
+            max_iter=50000,
+            C=0.7, 
             class_weight='balanced',
-            solver='newton-cg',
+            solver='liblinear',
             tol=1e-5
         ),
         n_jobs=-1
