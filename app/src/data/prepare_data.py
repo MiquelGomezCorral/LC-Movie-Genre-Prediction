@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 from sklearn.preprocessing import MultiLabelBinarizer
-from sklearn.feature_extraction.text import TfidfVectorizer, CountVectorizer
+from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.model_selection import train_test_split
 import re
 import nltk
@@ -51,7 +51,7 @@ def prepare_data_train(path: str, bag_X, label: str):
     y = prepare_labels(df["labels"].tolist())
 
     X_train, X_val, y_train, y_val = train_test_split(
-        X, y, test_size=0.15, random_state=42
+        X, y, test_size=0.1, random_state=42
     )
 
     return X_train, X_val, y_train, y_val

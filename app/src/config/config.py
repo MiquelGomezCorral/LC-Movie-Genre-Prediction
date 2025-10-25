@@ -24,21 +24,21 @@ class Configuration:
     train_data: str = os.path.join(DATA_FOLDER, "dataset_train.csv")
     test_data: str = os.path.join(DATA_FOLDER, "dataset_test.csv")
 
+
     label: str = "genre"
     columns: list = field(default_factory=list)
 
     val_split: float = 0.15
 
     # ================================== EXPERIMENTS ======================================
-    run_name: str = "lstm_model"
-    model_path: str = os.path.join(MODELS_FOLDER, f"{run_name}.ckpt")
-
-    # ================================== LOGS ======================================
-    logs_path_file: str = os.path.join(LOGS_FOLDER, "app.log")
+    gemini_prediction_path: str = os.path.join(LOGS_FOLDER, "gemini_prediction.csv")
+    gemini_results_path: str = os.path.join(LOGS_FOLDER, "gemini_results.csv")
+    gemini_scores_path: str = os.path.join(LOGS_FOLDER, "gemini_scores.json")
 
 
     # ================================== VARIABLES ======================================
     seed:     int = 42
+    batch_size: int = 64
 
     learning_rate: float = 2.5e-4
     total_timesteps: int = 25_000

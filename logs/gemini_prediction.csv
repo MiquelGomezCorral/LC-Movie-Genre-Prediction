@@ -1,0 +1,943 @@
+genres,movie_name
+"['Romance', 'Comedy']",Opposites Attract
+"['Animation', 'Adventure', 'Family']",A Turtle's Tale: Sammy's Adventures
+"['Comedy', 'Romance', 'Science Fiction']",My Stepmother Is an Alien
+"['Romance', 'Comedy']",You've Got Mail
+"['Horror', 'Science Fiction', 'Mystery']",The Thing
+"['Drama', 'Romance']",Malicious
+"['Horror', 'Thriller']",Howl
+"['Romance', 'Horror', 'Science Fiction']",Spring
+"['Thriller', 'Horror', 'Comedy']",The Trip
+"['Crime', 'Drama', 'Mystery', 'Thriller']",Secret in Their Eyes
+"['Drama', 'Thriller']",Hours
+"['Thriller', 'Drama']",The Machinist
+['Drama'],Radical
+"['Comedy', 'Romance']",Ex
+"['Adventure', 'Action', 'Thriller']",GoldenEye
+"['Romance', 'Comedy', 'Family']",A Christmas Prince: The Royal Wedding
+['Comedy'],I Hate Summer
+"['Adventure', 'Animation', 'Family', 'Fantasy']",AINBO: Spirit of the Amazon
+"['Action', 'Adventure', 'Animation', 'Comedy', 'Family', 'Science Fiction']",The Lego Movie 2: The Second Part
+"['Horror', 'Thriller']",Friday the 13th Part III
+"['Animation', 'Science Fiction', 'Action']",Akira
+"['Comedy', 'Fantasy']",Didier
+"['Action', 'Crime', 'Thriller']",Point Break
+"['Adventure', 'Animation', 'Fantasy', 'Romance']",Big Fish & Begonia
+"['Horror', 'Thriller']",Body Cam
+"['Action', 'Drama', 'Western']",Seraphim Falls
+"['Comedy', 'Drama', 'Romance']",The Leisure Seeker
+"['Horror', 'Mystery', 'Thriller']",MaXXXine
+"['Crime', 'Drama', 'Thriller']",Rope
+"['Family', 'Animation', 'Comedy', 'Adventure']",The Pirates! In an Adventure with Scientists!
+"['Animation', 'Drama', 'Fantasy']",Waking Life
+"['Romance', 'Drama']",Falling in Love
+"['Family', 'Animation', 'Comedy']",Purl
+['Drama'],School Ties
+"['Drama', 'War']",Hart's War
+"['Science Fiction', 'Drama', 'Mystery']",I Think We're Alone Now
+"['Comedy', 'Family', 'Science Fiction']",Short Circuit
+"['Comedy', 'Drama', 'Romance']",Garden State
+"['Crime', 'Drama', 'Thriller']",Felon
+"['Comedy', 'Drama', 'War']",Last Flag Flying
+"['Animation', 'Comedy', 'Adventure', 'Family']",The Twelve Tasks of Asterix
+"['Drama', 'History', 'Romance']",A Royal Affair
+"['Comedy', 'Family', 'Adventure', 'Music', 'Romance']",Popeye
+"['Horror', 'Science Fiction']",Alien
+"['Action', 'Adventure', 'Drama', 'History']",Rurouni Kenshin Part II: Kyoto Inferno
+"['Comedy', 'Romance']",Kiki: Love to Love
+['Comedy'],Fun Is Beautiful
+"['Comedy', 'Drama', 'Romance']",Adventureland
+['Comedy'],Viva l'Italia
+"['Drama', 'Family', 'Fantasy']",Field of Dreams
+"['Animation', 'Action', 'Drama', 'Science Fiction']",Evangelion: 3.0+1.0 Thrice Upon a Time
+"['Drama', 'Horror', 'Romance']",Let the Right One In
+"['Crime', 'Thriller', 'Action']",Point Blank
+"['Drama', 'Action']",Creed III
+"['Comedy', 'Drama', 'Fantasy']",Being John Malkovich
+"['Comedy', 'Crime']",The Big Lebowski
+"['Action', 'Thriller']",Assault on Precinct 13
+"['Comedy', 'Romance', 'Action']",Killers
+"['Action', 'Thriller', 'Crime']",Man on a Ledge
+"['Action', 'Crime', 'Thriller']",15 Minutes
+"['Drama', 'History', 'War']",Sophie Scholl: The Final Days
+"['Drama', 'Crime']",The Accused
+"['Action', 'Adventure', 'Comedy', 'Family']",Agent Cody Banks 2: Destination London
+"['Horror', 'Drama']",I Saw the TV Glow
+"['Drama', 'History']",Christiane F.
+"['Drama', 'Music', 'History']",Maria
+"['Action', 'Adventure', 'Science Fiction']",Stargate: The Ark of Truth
+"['Comedy', 'Drama']","Good Luck to You, Leo Grande"
+"['Action', 'Adventure']",American Ninja
+"['Comedy', 'Drama', 'Romance']",Stuck in Love
+"['Drama', 'Mystery', 'Thriller']",The Sixth Sense
+"['Drama', 'Romance', 'Thriller']",The Woman Next Door
+"['Drama', 'Thriller']",The Fan
+"['Action', 'Comedy', 'Crime']","Big Mommas: Like Father, Like Son"
+"['Drama', 'Comedy']",American Beauty
+"['Horror', 'Mystery', 'Thriller']",The Omen
+"['Comedy', 'Music']",Weird: The Al Yankovic Story
+"['Comedy', 'Drama']",Bye Bye Morons
+"['Action', 'Crime', 'Drama', 'Mystery', 'Thriller']",The Double
+"['Action', 'Adventure', 'Comedy', 'Science Fiction']",Rim of the World
+"['Action', 'Adventure', 'Thriller']",The Man with the Golden Gun
+"['Comedy', 'Drama', 'Music']",Danny Collins
+"['Drama', 'History', 'Romance']",A United Kingdom
+"['Action', 'Crime', 'Drama']",The Batman
+"['Drama', 'History', 'Thriller']",Munich
+"['Comedy', 'Fantasy']",The Visitors II: The Corridors of Time
+"['Crime', 'Drama', 'Mystery', 'Thriller']",Every Secret Thing
+['Drama'],Persona
+"['Action', 'Crime', 'Drama', 'Thriller']",Collateral
+"['Drama', 'Horror', 'Mystery', 'Thriller']",We Have Always Lived in the Castle
+"['Comedy', 'Drama', 'Romance']",Sex and the City
+"['Drama', 'Music', 'Romance']",Once
+"['Crime', 'Drama', 'Romance', 'Thriller']",Live Flesh
+"['Comedy', 'Family', 'Romance']",Look Who's Talking
+['Drama'],Goal!
+"['Comedy', 'Drama', 'War']",A Perfect Day
+['Drama'],"Jeanne Dielman, 23, quai du Commerce, 1080 Bruxelles"
+"['Action', 'Science Fiction', 'Thriller']",Tenet
+"['Action', 'Adventure', 'Horror', 'Science Fiction']",Morbius
+"['Drama', 'Romance']",Supernova
+"['Animation', 'Family']",Barbie and the Magic of Pegasus
+"['Animation', 'Family']",Barbie in A Mermaid Tale
+['Drama'],Scent of a Woman
+"['Horror', 'Mystery', 'Thriller']",Backtrack
+['Comedy'],F the Prom
+"['Action', 'Crime', 'Drama']",New Jack City
+"['Action', 'Crime', 'Thriller']",Dragged Across Concrete
+"['Drama', 'Mystery', 'Thriller']",Burning
+"['Action', 'Thriller']",Sniper
+"['Drama', 'Thriller']",Aftermath
+"['Action', 'Animation', 'Crime', 'Drama', 'Thriller']",Batman: The Killing Joke
+['Drama'],Ikiru
+"['Adventure', 'Animation', 'Family', 'Fantasy']",The Return of Jafar
+"['Comedy', 'Crime']",Bad Santa
+"['Action', 'Adventure', 'Comedy', 'Fantasy']",The Golden Child
+"['Action', 'Crime', 'Drama', 'Thriller']",The Brave One
+['Drama'],Marvin's Room
+"['Horror', 'Mystery', 'Thriller']",Insidious: Chapter 2
+"['Drama', 'Mystery', 'Science Fiction', 'Thriller']",Knowing
+"['Adventure', 'Family', 'Fantasy']",The Nutcracker and the Four Realms
+"['Horror', 'Thriller']",Heretic
+"['Comedy', 'Crime']",Oscar
+['Drama'],Poetry
+['Comedy'],Fantozzi Against the Wind
+"['Action', 'Drama']",RRR
+"['Comedy', 'Romance']",Set It Up
+"['Crime', 'Drama', 'Thriller']",Lady Vengeance
+['Comedy'],Girls Trip
+"['Action', 'Adventure', 'Drama', 'History']",The Bounty
+"['Action', 'Crime', 'Music', 'Thriller']",Baby Driver
+"['Drama', 'Romance']",Boys Don't Cry
+"['Comedy', 'Drama', 'History']",A Futile and Stupid Gesture
+"['Horror', 'Science Fiction', 'Thriller']",The Invasion
+"['Drama', 'Thriller']",Woman in the Dunes
+"['Drama', 'History']",The Professor and the Madman
+"['Action', 'Adventure', 'Science Fiction']",Ant-Man and the Wasp
+"['Fantasy', 'Horror', 'Mystery', 'Thriller']",In the Mouth of Madness
+"['Comedy', 'Crime']",The Sucker
+['Comedy'],Those Happy Days
+"['Fantasy', 'Horror', 'Mystery']",Down a Dark Hall
+"['Comedy', 'Horror', 'Action', 'Science Fiction']",Cooties
+"['Drama', 'Mystery', 'Romance', 'War']",A Very Long Engagement
+"['Drama', 'History']",There Will Be Blood
+"['Adventure', 'Animation', 'Drama', 'Fantasy', 'Romance']",Children Who Chase Lost Voices
+"['Crime', 'Drama', 'Mystery', 'Romance', 'Thriller']",Sea of Love
+['Drama'],The Emperor's Club
+"['Comedy', 'Romance']",Made of Honor
+"['Action', 'Adventure', 'Fantasy']",Troll
+"['Adventure', 'Action']",Indiana Jones and the Last Crusade
+"['Drama', 'War']",Casualties of War
+"['Horror', 'Mystery', 'Thriller']",Follow Me
+['Comedy'],Fatal
+"['Comedy', 'Drama', 'Romance']",What to Expect When You're Expecting
+"['Comedy', 'Drama', 'Science Fiction']",Don't Look Up
+"['Action', 'Drama', 'Romance']",Inferno
+"['Comedy', 'Crime']",The Family
+"['Action', 'Drama', 'War']",Sniper: The White Raven
+"['Action', 'Fantasy']",Batman
+"['Drama', 'Thriller']",The Company You Keep
+"['Action', 'Comedy', 'Fantasy', 'Horror']",Day Shift
+"['Fantasy', 'Romance', 'Adventure']",I Am Dragon
+"['Horror', 'Mystery']",[REC]²
+"['Action', 'Adventure', 'Fantasy', 'Horror']",The Mummy
+"['Horror', 'Mystery']",The Hole in the Ground
+['Drama'],Where Is The Friend's House?
+"['Crime', 'Mystery', 'Thriller']",Reptile
+"['Comedy', 'Romance']",Holidate
+['Horror'],Poltergeist
+"['Action', 'Thriller']",Chain Reaction
+"['Animation', 'Drama']",Look Back
+"['Family', 'Fantasy', 'Science Fiction']",*batteries not included
+"['Drama', 'History']",The Swimmers
+"['Action', 'Adventure', 'Drama', 'History']",Rurouni Kenshin: The Final
+"['Family', 'Comedy', 'Fantasy']",Stuart Little
+"['Action', 'Drama']",Only the Brave
+['Horror'],Sleepaway Camp
+"['Comedy', 'Adventure']",La Chèvre
+"['Crime', 'Drama', 'Mystery']",Anatomy of a Murder
+"['Drama', 'Comedy']",The Square
+['Drama'],Nobody Knows
+"['Drama', 'Romance']",Head-On
+"['Comedy', 'Drama', 'Romance']",Love Lasts Three Years
+"['Drama', 'Thriller']",The China Syndrome
+"['Action', 'Comedy', 'Drama']",Mean Machine
+"['Comedy', 'Action']",So Undercover
+"['Crime', 'Drama', 'Action']",Bronson
+"['Drama', 'Romance']",Fifty Shades of Grey
+"['Animation', 'Family', 'Comedy']",The Wrong Trousers
+['Drama'],99 Homes
+['Drama'],The Ultimate Gift
+"['Comedy', 'Romance']",Tootsie
+"['Animation', 'Fantasy', 'Science Fiction']",Bubble
+"['Drama', 'Music', 'History']",Amadeus
+"['Action', 'Comedy', 'Drama']",Let the Bullets Fly
+"['Comedy', 'Drama', 'Romance']",In Good Company
+"['Action', 'Comedy']",City Hunter
+"['Drama', 'Comedy']",Another Round
+"['Drama', 'History']",Pirates of Silicon Valley
+"['Action', 'Crime', 'Thriller']",The Enforcer
+"['Comedy', 'Science Fiction']",The Man with Two Brains
+"['Action', 'Adventure', 'Science Fiction']",G.I. Joe: Retaliation
+"['Romance', 'Comedy', 'Music']",Funny Face
+"['Animation', 'Drama', 'History']",The Wind Rises
+"['War', 'Drama', 'History']",Days of Glory
+"['Drama', 'Romance']",On Chesil Beach
+"['Comedy', 'Drama', 'Romance']","Juliet, Naked"
+"['Crime', 'Drama']",Bad Lieutenant: Port of Call - New Orleans
+"['Drama', 'Action']",Rocky IV
+"['Comedy', 'Horror']",Cockneys vs Zombies
+"['Animation', 'Family', 'Comedy', 'Adventure']",Wreck-It Ralph
+"['Romance', 'Comedy']",Rich in Love
+"['Animation', 'Comedy', 'Family', 'Fantasy', 'Romance']",Elemental
+"['Animation', 'Family', 'Comedy']",Diary of a Wimpy Kid
+"['Action', 'Comedy', 'Crime']",Blue Streak
+"['Science Fiction', 'Adventure', 'Mystery']",Forbidden Planet
+"['Action', 'Fantasy']",The Crow
+"['Action', 'Comedy', 'Drama']",JCVD
+"['Horror', 'Thriller']",Afflicted
+"['Comedy', 'Romance']",Anyone But You
+"['Family', 'Comedy']",Middle School: The Worst Years of My Life
+"['Drama', 'Family']",Whale Rider
+"['Horror', 'Science Fiction', 'Thriller']",Elizabeth Harvest
+"['Action', 'Thriller']",Haywire
+"['Comedy', 'Family']",Nacho Libre
+"['Comedy', 'Romance', 'Drama', 'Music']",200 Pounds Beauty
+['Drama'],Captain Fantastic
+"['Comedy', 'Horror', 'Romance']",Burying the Ex
+"['Action', 'Science Fiction', 'Adventure']",Ready Player One
+"['Action', 'Thriller']",The Hurricane Heist
+['Drama'],The Mustang
+"['Action', 'Drama']",Lady Snowblood
+"['Comedy', 'Romance']",Anything Else
+"['Drama', 'History']",The Dig
+"['Action', 'Drama', 'Fantasy']",Bāhubali 2: The Conclusion
+"['Drama', 'Comedy', 'Crime']",Masquerade
+"['Comedy', 'Romance']",The Party 2
+"['Drama', 'Romance']",Belle de Jour
+"['Horror', 'Comedy']",Creepshow
+"['Mystery', 'Romance', 'Thriller']",Foreign Correspondent
+"['Science Fiction', 'Thriller', 'Horror']",The Cloverfield Paradox
+"['Action', 'Adventure', 'Fantasy']",Snow White and the Huntsman
+"['Crime', 'Drama', 'Thriller']",The Day of the Jackal
+"['Animation', 'Action', 'Fantasy']",Yu-Gi-Oh!: The Dark Side of Dimensions
+"['Action', 'Thriller']",Close
+"['Horror', 'Mystery']",Pet Sematary: Bloodlines
+"['Comedy', 'Crime', 'Horror']",Sightseers
+['Drama'],"Girl, Interrupted"
+"['Drama', 'Horror', 'Mystery', 'Thriller']",Dream House
+"['Science Fiction', 'Thriller', 'Mystery']",The Fourth Kind
+"['Drama', 'History', 'War']",The Message
+"['Comedy', 'Adventure']",EuroTrip
+"['Drama', 'Romance']",Grand Hotel
+"['Drama', 'Comedy']",Get Low
+"['Horror', 'Thriller']",One Missed Call
+"['Horror', 'Mystery', 'Thriller']",The Dark Half
+"['Comedy', 'Family', 'TV Movie']",Cadet Kelly
+"['Comedy', 'Drama', 'Romance']",The Women on the 6th Floor
+"['Crime', 'Drama', 'History']",The Traitor
+"['Drama', 'History']",Andrei Rublev
+"['Animation', 'Family', 'Adventure', 'Western']",An American Tail: Fievel Goes West
+"['Science Fiction', 'Adventure']",2001: A Space Odyssey
+"['Family', 'Animation', 'Comedy', 'Adventure']",Ice Age: The Great Egg-Scapade
+"['Science Fiction', 'Drama']",THX 1138
+"['Action', 'Adventure', 'Drama', 'Science Fiction']",The Postman
+['Drama'],The Man Without a Face
+"['Science Fiction', 'Thriller']",The Platform 2
+['Comedy'],Serial (Bad) Weddings
+"['Comedy', 'Drama', 'History']",Rose Island
+"['Drama', 'Mystery', 'Thriller', 'Crime']",In the Heat of the Night
+"['Animation', 'Comedy', 'Fantasy']","South Park: Bigger, Longer & Uncut"
+"['Comedy', 'Romance']",Much Ado About Nothing
+"['Romance', 'Drama']",Before Sunrise
+"['Science Fiction', 'Adventure', 'Comedy']",Star Trek IV: The Voyage Home
+"['Animation', 'Adventure', 'Family', 'Fantasy', 'Comedy']",Puss in Boots
+"['Horror', 'Thriller']",Southbound
+"['Animation', 'Comedy', 'Drama']",It's Such a Beautiful Day
+"['Comedy', 'Romance']",Employee of the Month
+"['Horror', 'Thriller', 'Drama', 'Mystery', 'Crime']",Fallen
+"['Crime', 'Drama', 'Romance']",Summer of Sam
+"['Comedy', 'Family']",Mr. Mom
+"['Comedy', 'Crime', 'Drama']",I Don't Feel at Home in This World Anymore
+['Drama'],Nymphomaniac: Vol. II
+"['Crime', 'Drama', 'Thriller']",Lying and Stealing
+"['Crime', 'Drama']",American Gangster
+"['Science Fiction', 'Action', 'Adventure']",Mad Max: Fury Road
+"['Action', 'Adventure', 'Comedy', 'Romance']",D.E.B.S.
+"['Horror', 'Thriller']",Quarantine
+"['Drama', 'Horror', 'Mystery']",A Tale of Two Sisters
+"['Fantasy', 'Romance', 'Comedy']",Afterlife of the Party
+['Drama'],Rang De Basanti
+"['Horror', 'Thriller']",High Tension
+"['Horror', 'Thriller']",The Pool
+['Horror'],Polaroid
+"['Drama', 'Romance']",Julie & Julia
+"['Romance', 'Drama']",Shakespeare in Love
+"['Drama', 'Romance', 'Music']",In the Heights
+"['Crime', 'Drama']",GoodFellas
+"['Comedy', 'Crime']",Police Academy
+"['Animation', 'Science Fiction', 'Action']",Cowboy Bebop: The Movie
+"['Comedy', 'Romance']",She-Devil
+"['Action', 'Adventure', 'Comedy']",Operation Condor
+"['Crime', 'Drama', 'History']",Loving Pablo
+['Drama'],The United States of Leland
+"['Drama', 'Romance', 'Music']",Nowhere Boy
+['Drama'],A Good Person
+"['Comedy', 'Drama']",Win Win
+"['Action', 'Crime', 'Thriller']",The Enforcer
+"['Comedy', 'Family']",Old Dogs
+['Horror'],Mama
+"['Animation', 'Adventure', 'Family']",The Sea Beast
+"['Action', 'Adventure', 'History']",The Man in the Iron Mask
+"['Comedy', 'Adventure']",Rat Race
+"['Horror', 'Science Fiction', 'Fantasy']",Twilight Zone: The Movie
+"['Comedy', 'Drama']",Force Majeure
+"['Thriller', 'Crime', 'Drama']",The Client
+"['Drama', 'Comedy']",Shadows in Paradise
+"['Animation', 'Family', 'Fantasy', 'TV Movie']",The Snowman
+"['Drama', 'Thriller']",Take Shelter
+"['Horror', 'Thriller']",Saw
+"['Animation', 'Drama']",Loving Vincent
+"['Action', 'Comedy', 'Crime']",The Out-Laws
+"['Horror', 'Thriller', 'Drama']",Willard
+"['Science Fiction', 'Thriller']",The Boys from Brazil
+"['Science Fiction', 'Horror']",The Incredible Shrinking Man
+"['Thriller', 'Drama']",Unlawful Entry
+"['Adventure', 'Fantasy', 'Action']",The Beastmaster
+"['Drama', 'Family', 'Fantasy', 'Comedy']",A Dog's Purpose
+"['Crime', 'Thriller', 'Mystery']",Manhunter
+"['Drama', 'Thriller']",Disconnect
+"['Action', 'Crime', 'Thriller']",The Assignment
+"['Drama', 'History', 'Romance']",Queen Margot
+"['Action', 'Thriller', 'Crime']",The Fate of the Furious
+"['Drama', 'Crime']",Molly's Game
+"['Action', 'Comedy', 'Drama', 'Romance']",Love Exposure
+"['Comedy', 'Romance']",Easy A
+"['Action', 'Crime', 'Drama', 'Thriller']",Sicario
+"['Drama', 'Family']",Heaven Is for Real
+"['Comedy', 'Romance']",To Rome with Love
+"['Animation', 'Action', 'Adventure', 'Fantasy']",The Legend of Hei
+"['Comedy', 'Drama']",Bagdad Cafe
+['Comedy'],Up in Smoke
+"['Animation', 'Action', 'Adventure']",Naruto Shippuden the Movie: The Will of Fire
+"['Drama', 'Romance', 'History']",Kill Your Darlings
+"['Science Fiction', 'Thriller', 'Mystery']",Blade Runner 2049
+"['Action', 'Crime', 'Thriller']",3000 Miles to Graceland
+"['Animation', 'Family', 'Comedy', 'Fantasy']",The Smurfs 2
+"['Family', 'Animation', 'Action', 'Adventure', 'Comedy']",Kung Fu Panda 3
+"['Comedy', 'Horror']",Doghouse
+"['Drama', 'Science Fiction', 'Thriller']",I Am Legend
+['Comedy'],Fist Fight
+['Comedy'],Mandibles
+"['Drama', 'Thriller']",Remember
+"['Family', 'Fantasy', 'Comedy', 'TV Movie']",Sabrina the Teenage Witch
+"['Drama', 'Romance']",The Light Between Oceans
+"['Animation', 'Family', 'Comedy']",A Charlie Brown Christmas
+"['Horror', 'Thriller', 'Drama']",Frozen
+"['Action', 'Adventure', 'Science Fiction']",Waterworld
+['Comedy'],The Ringer
+"['Action', 'Adventure', 'Drama', 'History']",Pathfinder
+"['Action', 'Science Fiction', 'Thriller']",Terminator 3: Rise of the Machines
+"['Drama', 'Fantasy', 'Romance']",Beastly
+"['Comedy', 'Romance']",Love Is in the Air
+['Comedy'],Dumped
+"['Comedy', 'Drama', 'Fantasy']",Juliet of the Spirits
+['Drama'],White Oleander
+"['Crime', 'Drama']",In Cold Blood
+"['Comedy', 'Drama']",King of California
+"['Comedy', 'Drama', 'Thriller']",After Hours
+"['Animation', 'Family', 'Adventure']",Little Eggs: A Frozen Rescue
+"['Crime', 'Thriller', 'Drama']",Red Dragon
+['Horror'],Zombie Flesh Eaters
+"['Action', 'Adventure', 'Drama']",Mulan
+"['Thriller', 'Horror', 'Drama', 'Mystery']",The Gift
+"['Horror', 'Science Fiction']",Shivers
+"['Action', 'Comedy', 'Adventure']",Harley Davidson and the Marlboro Man
+['Drama'],Rosetta
+"['Drama', 'History', 'Action', 'War']",Zulu
+"['Drama', 'Thriller', 'Crime']",Under Suspicion
+"['Animation', 'Family', 'Comedy']",One Man Band
+"['Drama', 'Mystery', 'Thriller']",Dark Places
+"['Drama', 'History']",Quiz Show
+"['Action', 'Thriller', 'Crime']",Death Warrant
+"['Animation', 'Action', 'Science Fiction']",Dragon Ball Super: Broly
+"['Horror', 'Thriller']",Saw X
+"['Action', 'Crime', 'Drama', 'Mystery', 'Science Fiction', 'Thriller']",Criminal
+"['Action', 'Crime', 'Drama', 'Western']",The Proposition
+"['Drama', 'Fantasy', 'Romance']",Every Day
+"['Action', 'Crime', 'Thriller']",Novocaine
+"['Adventure', 'Drama']",Dersu Uzala
+"['Comedy', 'Drama', 'Romance', 'War']",The Tiger and the Snow
+"['Adventure', 'Comedy', 'Drama', 'Western']",Little Big Man
+"['Science Fiction', 'Action', 'Horror']",Project Gemini
+"['Adventure', 'Animation', 'Comedy', 'Family', 'Music']","Mickey, Donald, Goofy: The Three Musketeers"
+"['Horror', 'Thriller', 'Mystery']",The Last Exorcism
+"['Thriller', 'Crime', 'Drama']",Eye for an Eye
+"['Drama', 'Comedy']",Wadjda
+"['Comedy', 'Drama']",3 Idiots
+"['Crime', 'Drama', 'Mystery', 'Thriller']",The Girl with the Dragon Tattoo
+"['Comedy', 'Drama', 'Romance']",Rumor Has It...
+"['Adventure', 'Fantasy', 'Drama', 'Romance']",The Twilight Saga: Breaking Dawn - Part 1
+"['Animation', 'Adventure', 'Comedy', 'Family', 'Fantasy']",The Emperor's New Groove
+"['Science Fiction', 'Fantasy', 'Action', 'Mystery']",Coma
+"['Action', 'Thriller']",Duel
+"['Family', 'Fantasy', 'Romance', 'Comedy', 'Music']",A Cinderella Story: If the Shoe Fits
+"['Comedy', 'Drama']",Let Go
+"['Comedy', 'Drama']",About Schmidt
+"['Drama', 'Mystery']",The Father
+"['Comedy', 'Crime', 'Drama', 'Science Fiction']",Robot & Frank
+"['Comedy', 'Drama', 'Music']",24 Hour Party People
+"['Drama', 'Romance']","The Cook, the Thief, His Wife & Her Lover"
+"['Crime', 'Drama', 'Romance']",Breathless
+"['Action', 'Drama', 'War']",Missing in Action
+"['Action', 'Comedy', 'Crime']",Masterminds
+"['Comedy', 'Drama', 'Romance']",Larry Crowne
+"['Drama', 'Music', 'Romance']",Save the Last Dance
+"['Drama', 'Thriller']",Sleeping with the Enemy
+"['Drama', 'Romance']",Heartbeats
+"['Action', 'Horror', 'Science Fiction']",Tremors: A Cold Day in Hell
+"['Animation', 'Adventure', 'Comedy', 'Family']",The Nut Job
+['Drama'],Viridiana
+"['Action', 'Animation', 'Drama', 'Fantasy', 'Science Fiction']",Kingsglaive: Final Fantasy XV
+"['Action', 'Crime', 'Drama', 'Thriller']",Sicario: Day of the Soldado
+"['Drama', 'Romance']",Breathe In
+"['Comedy', 'Drama', 'Music']",I'm Still Here
+"['Adventure', 'Drama', 'Romance', 'Western']",Far and Away
+"['Animation', 'Action', 'Horror']",The Batman vs. Dracula
+"['Action', 'Drama', 'Thriller']",Cell 211
+"['Action', 'Animation', 'Comedy', 'Family', 'Science Fiction']",Monsters vs Aliens
+"['Action', 'Crime', 'Thriller']",Kill Bill: Vol. 1
+"['Comedy', 'Family', 'Fantasy']",Angels in the Outfield
+"['Comedy', 'Family', 'Fantasy']",Candy Cane Lane
+"['Drama', 'Horror', 'Science Fiction', 'Thriller']",Cargo
+"['Drama', 'Music', 'Romance']",Priscilla
+"['Action', 'Science Fiction', 'Thriller']",The Blackout
+"['Comedy', 'Drama', 'Romance']",The Best Exotic Marigold Hotel
+"['Comedy', 'Romance']",Eagle vs Shark
+"['Horror', 'Thriller']",Intruders
+"['Comedy', 'Drama', 'Music', 'Romance']",Sweet and Lowdown
+['Comedy'],Step Brothers
+"['Action', 'Horror', 'Science Fiction', 'Thriller']",Deep Blue Sea
+"['Family', 'Music', 'Romance', 'TV Movie']",Z-O-M-B-I-E-S
+"['Comedy', 'Drama']",Stardust Memories
+"['Drama', 'Romance']",A Walk to Remember
+"['Drama', 'Romance']",Paprika
+['Drama'],People Like Us
+"['Drama', 'History', 'Romance']",Reds
+"['Animation', 'Comedy', 'Drama', 'Family', 'Romance']",Stand by Me Doraemon
+"['Crime', 'Drama', 'Music']",The Cotton Club
+"['Horror', 'Comedy', 'Action', 'Fantasy']",The Day of the Beast
+"['Drama', 'History']",Father Stu
+"['Comedy', 'Drama']",Breakfast on Pluto
+"['Comedy', 'Family', 'Fantasy']",Freaky Friday
+"['Science Fiction', 'Thriller']",WarGames
+"['Action', 'Adventure', 'Comedy', 'Family', 'Science Fiction']",Teenage Mutant Ninja Turtles
+"['Comedy', 'Drama', 'Romance']",A Good Year
+"['Action', 'Crime', 'Thriller']",French Connection II
+"['Action', 'Adventure', 'Fantasy']",The Northman
+"['Horror', 'Comedy']",The Abominable Dr. Phibes
+"['Comedy', 'Drama', 'Fantasy', 'Romance']",Shallow Hal
+"['Drama', 'Romance']",Kiss Me Again
+"['Action', 'History', 'Drama']",Ip Man 3
+"['Action', 'Adventure', 'Thriller']",The Expendables
+"['Drama', 'Fantasy', 'Romance', 'Thriller']",Ghost
+"['Drama', 'Thriller']",Miss Sloane
+"['Horror', 'Mystery', 'Thriller']",The Exorcist III
+"['Action', 'Comedy', 'Thriller']",Bullet Train
+"['Animation', 'Comedy', 'Family']",Toy Story
+"['Comedy', 'Music', 'Fantasy']",Holy Camp!
+"['Drama', 'Horror', 'Thriller']",The Last Circus
+"['Science Fiction', 'Horror', 'Action']",Arcadian
+"['Comedy', 'Drama']",Sink or Swim
+"['Comedy', 'Drama']",The King of Staten Island
+"['Action', 'Horror', 'Science Fiction']",Resident Evil: Apocalypse
+"['Horror', 'Fantasy', 'Thriller']",New Nightmare
+"['Comedy', 'Fantasy']",Husband & Wife
+"['Horror', 'Science Fiction', 'Thriller']",Videodrome
+"['Horror', 'Science Fiction', 'Thriller']",Stake Land
+"['Animation', 'Family', 'Comedy', 'TV Movie']","It's the Great Pumpkin, Charlie Brown"
+"['Action', 'Crime', 'Thriller']",Mechanic: Resurrection
+"['Comedy', 'Romance', 'Drama']",Spread
+['Comedy'],The New Guy
+"['Comedy', 'Drama', 'Romance']",Home Again
+"['Comedy', 'Drama', 'Romance']",Shortbus
+"['Comedy', 'Drama', 'History']","I, Tonya"
+"['Action', 'Comedy']",The Unbearable Weight of Massive Talent
+"['Animation', 'Comedy', 'Family', 'Adventure']",Despicable Me 2
+"['Comedy', 'Drama', 'Romance']",Salmon Fishing in the Yemen
+"['Action', 'Drama', 'Thriller']",Body of Lies
+['Drama'],Nomadland
+"['Action', 'Drama', 'Thriller']",Tunnel
+"['Action', 'Science Fiction', 'Thriller']",Death Race
+"['Drama', 'Mystery', 'Romance', 'Thriller']",The Good German
+"['Action', 'Horror', 'Thriller']",Hatchet III
+"['Comedy', 'Fantasy', 'Romance']",Joe Versus the Volcano
+"['Action', 'Fantasy']",The Man with the Iron Fists
+"['Crime', 'Drama', 'Thriller']",The Whole Truth
+"['Drama', 'Romance']",Serena
+"['Animation', 'Horror', 'Drama']",Belladonna of Sadness
+"['Horror', 'Adventure', 'Comedy', 'Family']",Goosebumps 2: Haunted Halloween
+"['Comedy', 'Drama']",Infinitely Polar Bear
+"['Animation', 'Family', 'Fantasy']",Secret of the Wings
+"['Drama', 'War']",Persian Lessons
+"['Crime', 'Drama', 'Thriller']",Nightmare Alley
+"['Action', 'Drama']",Master Z: Ip Man Legacy
+"['Adventure', 'Action', 'History', 'Drama']",Ben-Hur
+"['Animation', 'Adventure', 'Family']",Kirikou and the Wild Beasts
+['Comedy'],Napoleon Dynamite
+"['Action', 'Adventure', 'Science Fiction']",G.I. Joe: The Rise of Cobra
+"['Action', 'Crime', 'Thriller']",S.W.A.T.
+"['Comedy', 'Crime']",Snatch
+"['Drama', 'Romance']",To the Wonder
+"['Comedy', 'Drama', 'Horror']",Visitor Q
+['Drama'],Temple Grandin
+"['Family', 'Drama']",Children of Heaven
+"['Drama', 'Mystery', 'Thriller']",Inland Empire
+"['Action', 'Science Fiction', 'Animation']",Dragon Ball Z: Bardock - The Father of Goku
+"['Action', 'Comedy', 'Adventure']",Team America: World Police
+"['Family', 'Fantasy', 'Romance']",Three Wishes for Cinderella
+"['Comedy', 'Romance', 'Drama']",Maggie's Plan
+"['Drama', 'Mystery', 'Crime', 'Thriller']",Chinatown
+"['Drama', 'Fantasy']",Petite Maman
+"['Romance', 'Comedy']",Squared Love
+"['Action', 'Adventure', 'Science Fiction']",Captain America: Brave New World
+"['Drama', 'Family', 'Adventure']",Black Beauty
+"['Action', 'Animation', 'Drama', 'Science Fiction']",Evangelion: 1.0 You Are (Not) Alone
+['Drama'],Nymphomaniac: Vol. I
+"['Action', 'Crime', 'Thriller']",Heist
+"['Animation', 'Family', 'Fantasy']",Tinker Bell
+"['Adventure', 'Comedy', 'Family', 'Music']",Muppets Most Wanted
+"['Comedy', 'Music', 'Romance']",Hairspray
+['Drama'],Hardball
+"['Adventure', 'Drama']",Moby Dick
+['Comedy'],New Biz in the Hood
+"['Adventure', 'Comedy', 'Family', 'Fantasy', 'Romance']",Herbie Fully Loaded
+"['Crime', 'Mystery', 'Thriller']",Mindcage
+['Drama'],Penguin Bloom
+"['Action', 'Thriller']",Burn Out
+"['Comedy', 'Drama']",Night on Earth
+['Drama'],One Flew Over the Cuckoo's Nest
+['Comedy'],Bringing Down the House
+"['Action', 'Comedy', 'Drama', 'Thriller']",Wasabi
+"['Drama', 'Comedy']","Don't Worry, He Won't Get Far on Foot"
+"['Drama', 'Comedy', 'Adventure']",Zorba the Greek
+"['Crime', 'Drama', 'Thriller']",Hannibal Rising
+"['Adventure', 'Comedy', 'Fantasy', 'Science Fiction']",Time Bandits
+['Drama'],Mildred Pierce
+"['Comedy', 'Drama']",All That Glitters
+"['Comedy', 'Drama', 'Adventure']",The Sisterhood of the Traveling Pants
+"['Comedy', 'Romance']",The Five-Year Engagement
+"['Action', 'Adventure', 'Fantasy']",Clash of the Titans
+"['Drama', 'Crime']",Rounders
+"['Drama', 'Family', 'Fantasy']",The Red Balloon
+"['Drama', 'Romance']",Dying Young
+"['Drama', 'Mystery']",Citizen Kane
+"['Crime', 'Drama', 'Thriller']",Terminal
+"['Drama', 'Romance']",Summer with Monika
+['Comedy'],Vacation Friends
+['Drama'],NYAD
+"['Comedy', 'Romance']",Saving Silverman
+['Comedy'],The House
+"['Action', 'Horror', 'Thriller']",Elevation
+"['Animation', 'Family', 'Fantasy']",Dragons: Gift of the Night Fury
+"['Action', 'Crime', 'Science Fiction', 'Thriller']",Virtuosity
+"['Horror', 'Mystery', 'Thriller']",Scream
+"['Drama', 'Science Fiction', 'Thriller']",Stowaway
+"['Comedy', 'Drama', 'Romance']",The Science of Sleep
+['Comedy'],Case départ
+"['Thriller', 'Crime']",Killer Joe
+"['Drama', 'Music', 'Romance']","New York, New York"
+"['Fantasy', 'Mystery', 'Romance', 'Science Fiction', 'Thriller']",Vanilla Sky
+"['Action', 'Adventure', 'Drama', 'Science Fiction']",Space Sweepers
+"['Crime', 'Drama']",Maria Full of Grace
+"['Drama', 'Comedy']",Fried Green Tomatoes
+"['Drama', 'Mystery', 'Thriller']",Eyes Wide Shut
+"['Action', 'Fantasy']",Mortal Kombat
+['Comedy'],"One, Two, Three"
+"['Comedy', 'Drama']",Burnt
+"['Animation', 'Science Fiction']",Return
+"['Action', 'Adventure', 'Comedy', 'Fantasy']",Thor: Love and Thunder
+"['Horror', 'Mystery', 'Science Fiction', 'Thriller']",Morgan
+"['Crime', 'Mystery', 'Thriller']",Marshland
+"['Comedy', 'Drama', 'War']",Life Is Beautiful
+"['Comedy', 'Crime', 'Drama']",Heroic Losers
+"['Drama', 'History']",Moneyball
+"['Comedy', 'Crime', 'Thriller']",Very Bad Things
+"['Action', 'Crime', 'Drama', 'Thriller']",Shot Caller
+"['Drama', 'Romance']",Waves
+"['Comedy', 'Drama', 'Romance']",Me and You and Everyone We Know
+"['Action', 'Animation', 'Fantasy', 'Science Fiction']",Justice League: Gods and Monsters
+"['Action', 'Comedy', 'Crime']",Kindergarten Cop
+"['Crime', 'Horror', 'Mystery', 'Thriller']",Longlegs
+"['Comedy', 'Mystery']",Manhattan Murder Mystery
+"['Animation', 'Family', 'Adventure', 'Romance']",Tarzan & Jane
+"['Action', 'Adventure', 'Science Fiction']",X-Men: Apocalypse
+"['Action', 'Western']",Sukiyaki Western Django
+"['Animation', 'Family', 'Adventure', 'Fantasy']",Moana
+"['Comedy', 'Fantasy', 'Romance']",The Purple Rose of Cairo
+['Drama'],The Wife
+['Comedy'],Suck Me Shakespeer
+"['Action', 'Comedy', 'Drama']",Super
+"['Drama', 'Music']",Pump Up the Volume
+"['Mystery', 'Thriller']",The Vanishing
+"['Action', 'Adventure', 'Science Fiction', 'Thriller']",I Am Number Four
+"['Animation', 'Family', 'Comedy']",Groot Takes a Bath
+"['Horror', 'Thriller']",The Sacrament
+"['Action', 'Adventure', 'Science Fiction']",Mira
+['Comedy'],Kingpin
+"['Western', 'Drama', 'Action']",3:10 to Yuma
+['Drama'],Joy
+['Comedy'],Stuck Together
+"['Adventure', 'Family', 'Drama']",The Wolf and the Lion
+"['Animation', 'Adventure', 'Comedy', 'Family']",The Son of Bigfoot
+"['Action', 'Comedy', 'Crime']","Faster, Pussycat! Kill! Kill!"
+"['Animation', 'Science Fiction', 'Adventure']",Patema Inverted
+"['Drama', 'Crime']",The Young and the Damned
+"['Drama', 'Fantasy', 'Horror', 'Mystery', 'Romance', 'Thriller']",Thelma
+"['Drama', 'Thriller']",Buried
+"['Drama', 'Romance', 'War']",The English Patient
+['Comedy'],Borat Subsequent Moviefilm
+"['Drama', 'History', 'Music']",La Bamba
+"['Drama', 'Fantasy', 'Horror']",Lamb
+"['Drama', 'History']",In the Name of the Father
+"['Drama', 'Mystery', 'Thriller']",The Devil's Advocate
+"['Drama', 'Romance']",Palm Trees in the Snow
+"['Adventure', 'Comedy', 'Drama']",The Grand Budapest Hotel
+"['Drama', 'Mystery', 'Thriller']",The Gift
+"['Comedy', 'Drama', 'Romance']",Love at First Sight
+"['Action', 'Crime', 'Thriller']",The Raid 2
+"['Crime', 'Mystery', 'Thriller']",The Girl in the Fog
+"['Drama', 'Fantasy', 'Romance']",Ondine
+"['Adventure', 'Family', 'Fantasy', 'Science Fiction']",City of Ember
+"['Drama', 'Romance']",Jane Eyre
+"['Action', 'Adventure', 'Science Fiction']",Jurassic World
+"['Animation', 'Adventure', 'Comedy', 'Family', 'Science Fiction']",Mr. Peabody & Sherman
+"['Comedy', 'Crime', 'Romance']",Mickey Blue Eyes
+"['Crime', 'Drama', 'History']",Spotlight
+"['Horror', 'Mystery', 'Thriller']",Veronica
+['Comedy'],The Immature: The Trip
+"['Horror', 'Mystery', 'Thriller']",The Rental
+"['Comedy', 'Horror']",Street Trash
+"['Crime', 'Drama']",To Kill a Mockingbird
+"['Comedy', 'Family']",Playing with Fire
+"['Action', 'Crime', 'Drama', 'Thriller']",Rogue City
+"['Drama', 'Mystery', 'Thriller']",White Bird in a Blizzard
+"['Action', 'Crime', 'Drama', 'History']",The Baader Meinhof Complex
+"['Comedy', 'Fantasy', 'Science Fiction']",Mars Attacks!
+"['Action', 'Horror', 'Science Fiction', 'Thriller']",Peninsula
+"['Animation', 'Adventure', 'Comedy', 'Family', 'Fantasy']",Secret Magic Control Agency
+"['Horror', 'Science Fiction', 'Thriller']",Village of the Damned
+"['Action', 'Crime', 'Thriller']",Marauders
+"['Drama', 'Mystery', 'Thriller']",The Past
+"['Action', 'Drama', 'Thriller']",Fist of Fury
+"['Action', 'Crime', 'Thriller']",Proud Mary
+"['Animation', 'Adventure', 'Drama', 'Family', 'Fantasy']",Mirai
+"['Drama', 'Thriller', 'Mystery']",Michael Clayton
+"['Comedy', 'Drama']",American Graffiti
+"['Action', 'Drama']",Harakiri
+"['TV Movie', 'Western']",Bonanza: The Return
+['Drama'],18 Presents
+"['Action', 'Adventure', 'Drama', 'Thriller']",The Edge
+"['Comedy', 'Crime']",Crooks in Clover
+"['Action', 'Adventure', 'Comedy', 'Family']",3 Ninjas
+"['Drama', 'Fantasy', 'Science Fiction', 'Thriller']",After the Dark
+"['Adventure', 'Action', 'Drama']",The Count of Monte Cristo
+"['Comedy', 'Drama', 'Romance']",Lars and the Real Girl
+"['Comedy', 'Drama', 'Romance']",Where the Heart Is
+"['Horror', 'Thriller', 'Mystery']",Dead End
+"['Comedy', 'Family', 'Romance']",3 Men and a Baby
+"['Action', 'History', 'Drama']",Ip Man 2
+"['Action', 'Comedy']",Stuber
+"['Drama', 'War', 'Action']",Hamburger Hill
+"['Crime', 'Drama', 'Action']",Rocco and His Brothers
+"['Action', 'Comedy']",Convoy
+"['Comedy', 'Romance']",The Taming of the Scoundrel
+"['Animation', 'Family']",Luxo Jr.
+"['Action', 'Crime', 'Drama', 'Thriller']",Dead Man Down
+"['Family', 'Fantasy']",The Lost Prince
+"['Drama', 'History']",Saving Mr. Banks
+"['Action', 'Crime', 'Drama', 'Thriller']",Luther: The Fallen Sun
+"['Animation', 'Family', 'Romance']",The Blue Umbrella
+"['Drama', 'Romance']",Water for Elephants
+['Music'],Battle of the Year
+"['Comedy', 'Horror']",Frankenhooker
+"['Animation', 'Adventure', 'Comedy', 'Family', 'Science Fiction']",Turbo
+"['Drama', 'Romance', 'War']",Suite Française
+"['Mystery', 'Thriller']",Exam
+"['Crime', 'Horror', 'Thriller']",Frenzy
+"['Comedy', 'Romance']",Risky Business
+['Comedy'],Neighbors
+"['Romance', 'Comedy']",Can You Keep a Secret?
+"['Comedy', 'Drama', 'Romance']",The Last Kiss
+"['Science Fiction', 'Romance', 'Thriller']",The Adjustment Bureau
+"['Action', 'Crime', 'Thriller']",The Transporter
+['Comedy'],The Parisian Bitch
+"['Comedy', 'Drama']",The Rules of the Game
+"['Thriller', 'Mystery']",Fractured
+"['Animation', 'Adventure', 'Family', 'Fantasy', 'Music']",Pete's Dragon
+"['Action', 'Crime', 'Thriller']",Brawl in Cell Block 99
+"['Adventure', 'Comedy', 'Science Fiction']",Galaxy Quest
+"['Adventure', 'Fantasy', 'Family']",The Secret of Moonacre
+['Horror'],Hatchet II
+"['Action', 'Crime', 'Thriller']",John Wick: Chapter 2
+"['Drama', 'Horror', 'Thriller']",Repulsion
+"['Crime', 'Drama', 'Mystery', 'Romance', 'Thriller']",Dead Again
+"['Drama', 'Romance']",My Night at Maud's
+"['Drama', 'Thriller', 'Mystery']",You Were Never Really Here
+"['Action', 'Crime', 'Drama', 'Thriller']",Harry Brown
+"['Comedy', 'Drama']",Kinky Boots
+"['Comedy', 'Crime']",Little Man
+['Comedy'],The Gendarme Gets Married
+"['Drama', 'Horror']",Antichrist
+"['Drama', 'Mystery']",Reversal of Fortune
+"['Adventure', 'Drama', 'Western']",The Treasure of the Sierra Madre
+"['Action', 'Crime', 'Drama']",The Kitchen
+"['Action', 'Comedy', 'Family']",My Spy
+"['Comedy', 'Romance']",Two Weeks Notice
+"['Action', 'Adventure']",Major Grom: Plague Doctor
+"['Action', 'Adventure', 'Western']",The Magnificent Seven
+"['Drama', 'Romance']",Y Tu Mamá También
+['Comedy'],American Pie Presents: Girls' Rules
+['Drama'],Loro 1
+"['Drama', 'Thriller', 'War']",Monos
+"['Drama', 'Music', 'Romance']",Maestro
+"['Comedy', 'Drama', 'Fantasy', 'Romance']",Wristcutters: A Love Story
+"['Comedy', 'Romance']",He's All That
+"['Drama', 'Romance']",Cousins
+"['Action', 'Crime', 'Thriller']",Payback
+"['Comedy', 'Drama']",I Vitelloni
+['Drama'],Blue Jasmine
+"['Drama', 'Horror', 'Mystery']",It Comes at Night
+['Drama'],Lean On Me
+"['Comedy', 'Romance']",Four Christmases
+['Comedy'],The Immature
+"['Adventure', 'Comedy', 'Fantasy', 'Family']",Asterix & Obelix: Mission Cleopatra
+"['Drama', 'History', 'War']",Sobibor
+"['Action', 'Comedy']",Any Which Way You Can
+"['Drama', 'Music']",Cadillac Records
+"['Drama', 'Romance']",Rust and Bone
+"['Comedy', 'Romance']",That Awkward Moment
+"['Action', 'Adventure', 'Fantasy']",The League of Extraordinary Gentlemen
+"['Drama', 'History', 'War']",Barry Lyndon
+['Comedy'],Budapest
+"['Comedy', 'Romance']",Rolling to You
+"['Drama', 'Fantasy', 'Horror']",The Lighthouse
+"['Animation', 'Comedy', 'Family', 'Action']",Megamind
+['Drama'],The Sunset Limited
+"['Action', 'Comedy', 'Fantasy']",Mystery Men
+"['Drama', 'Mystery', 'Romance', 'Thriller', 'War']",Enigma
+"['Drama', 'History', 'Romance']",Belle
+"['Drama', 'History']",Elizabeth
+"['Drama', 'Romance']",Lolita
+"['Drama', 'History', 'War']",Schindler's List
+"['Action', 'Thriller']",No Escape
+"['Comedy', 'Crime', 'Horror']",Serial Mom
+"['Action', 'Drama', 'Science Fiction']",Logan
+"['Horror', 'Thriller']",Prey for the Devil
+"['Comedy', 'Drama', 'Romance']",The Little Death
+"['Drama', 'History', 'Adventure']",Apollo 13
+"['Animation', 'Comedy', 'Family', 'Science Fiction']",Summer Wars
+"['Drama', 'Adventure', 'Thriller']",Deliverance
+"['Drama', 'Fantasy', 'War']",Pan's Labyrinth
+"['Comedy', 'Drama']",Chinese Take-Away
+"['Action', 'Crime', 'Thriller']",Point Break
+"['Drama', 'Music']","tick, tick... BOOM!"
+"['Action', 'Adventure', 'Science Fiction']",Solo: A Star Wars Story
+"['Action', 'Crime', 'Drama', 'Mystery', 'Thriller']",Basic
+"['Comedy', 'Drama']",Bad Seeds
+"['Crime', 'Drama', 'Mystery', 'Thriller']",Anatomy of a Fall
+"['Action', 'Comedy', 'Crime']",Wild Target
+"['Drama', 'Mystery', 'Thriller']",The Ones Below
+['Drama'],Mr. Smith Goes to Washington
+"['Drama', 'Horror', 'Music', 'Thriller']",Climax
+"['Action', 'Drama', 'History', 'War']",Red Cliff
+"['Action', 'Adventure', 'Animation', 'Family', 'Fantasy']",Trollhunters: Rise of the Titans
+"['Animation', 'Family', 'Comedy']",Riley's First Date?
+"['Animation', 'Comedy', 'Family', 'Adventure']",The Willoughbys
+"['Crime', 'Drama', 'Mystery', 'Thriller']",The Black Dahlia
+"['Horror', 'Thriller']",The Children
+"['Action', 'Science Fiction']",The Matrix
+"['Comedy', 'Crime', 'Romance']",Heartbreakers
+"['Crime', 'Drama', 'Thriller']",In the Fade
+"['Drama', 'Romance']",Love in the Time of Cholera
+"['Horror', 'Thriller']",Shark Bait
+"['Action', 'Animation', 'Science Fiction']",Superman/Batman: Public Enemies
+"['Action', 'Fantasy', 'Thriller']",The Crow: Salvation
+"['Adventure', 'Action', 'Comedy', 'Fantasy']",The Brothers Grimm
+"['Action', 'Adventure', 'Science Fiction']",Furiosa: A Mad Max Saga
+"['Drama', 'History']",Foxcatcher
+"['Science Fiction', 'Thriller']",The Machine
+"['Animation', 'Comedy', 'Family']",Jack-Jack Attack
+"['Drama', 'Romance']",Stealing Beauty
+"['Action', 'Animation', 'Science Fiction']",Appleseed
+['Drama'],Air
+"['Horror', 'Thriller']",Hush
+"['Horror', 'Thriller']",The Den
+"['Adventure', 'Romance', 'Science Fiction']",Time After Time
+['Drama'],Antiporno
+"['Comedy', 'Family', 'Fantasy', 'Music']",Mary Poppins Returns
+"['Horror', 'Mystery']",Fear Street: 1994
+['Drama'],The Burial
+"['Comedy', 'Romance']",The French Kissers
+"['Comedy', 'Drama']",The King of Comedy
+"['Crime', 'Thriller']",Reasonable Doubt
+"['Adventure', 'Comedy', 'Drama']",A Walk in the Woods
+"['Drama', 'Horror', 'Thriller']",Funny Games
+"['Action', 'Thriller']",Interceptor
+"['Horror', 'Science Fiction', 'Thriller']",Subservience
+"['Western', 'Drama']",Unforgiven
+['Comedy'],The Big Year
+['Drama'],Io Capitano
+"['Drama', 'Music', 'Romance']",A Star Is Born
+"['Drama', 'Romance', 'Thriller']",The Isle
+"['Drama', 'History']",The Front Runner
+"['Comedy', 'Romance']",Must Love Dogs
+"['Adventure', 'Animation', 'Drama', 'Music', 'Science Fiction']",Interstella 5555: The 5tory of the 5ecret 5tar 5ystem
+"['Drama', 'Thriller']",Instinct
+"['Horror', 'Drama']",The Woman
+"['Animation', 'Adventure', 'Comedy', 'Family', 'Science Fiction']",Escape from Planet Earth
+"['Comedy', 'Drama']",The Upside
+"['Comedy', 'Drama', 'Family', 'Music', 'Romance']",Hannah Montana: The Movie
+"['Action', 'Adventure', 'History']",Dragon Blade
+"['Drama', 'Horror']",Men
+"['Adventure', 'Comedy', 'Family', 'Fantasy']",We Have a Ghost
+"['Comedy', 'Drama', 'Romance']",The Quiet Man
+"['Comedy', 'Family', 'Fantasy', 'Romance']",Enchanted
+"['Comedy', 'Drama', 'Romance']",The First Time
+"['Animation', 'Adventure', 'Comedy', 'Family']",Horton Hears a Who!
+"['Drama', 'Fantasy', 'Horror', 'Thriller']",Doctor Sleep
+"['Drama', 'Thriller']",Fatale
+"['Drama', 'History', 'Romance', 'War']",The Promise
+"['Drama', 'Romance']",The Diary of a Teenage Girl
+"['Drama', 'Thriller']",Topaz
+"['Horror', 'Thriller', 'Drama']",Crush
+"['Comedy', 'Science Fiction']",(T)Raumschiff Surprise - Periode 1
+"['Action', 'Animation', 'Science Fiction']",Justice League vs. the Fatal Five
+"['Drama', 'Science Fiction']",The Giver
+"['Animation', 'Family', 'Fantasy']",The King and the Mockingbird
+"['Comedy', 'Crime', 'Drama', 'Family']",Millions
+"['Drama', 'Comedy']","Men, Women & Children"
+"['Horror', 'Science Fiction', 'Comedy']",The Stuff
+"['Animation', 'Science Fiction', 'Action', 'Mystery']",Mars Express
+"['Comedy', 'Drama']",White Men Can't Jump
+['Comedy'],Tanguy
+"['Animation', 'Family', 'Fantasy']",Song of the Sea
+"['Action', 'Drama', 'Science Fiction', 'TV Movie']",Battlestar Galactica: The Plan
+"['Drama', 'History', 'Romance']",Elisa & Marcela
+"['Drama', 'Comedy']",May December
+"['Action', 'Comedy']",Ride Along 2
+"['Crime', 'Drama', 'Thriller']",Legend
+"['Drama', 'Music']",Vox Lux
+"['Comedy', 'Drama']",The Holdovers
+"['Action', 'Adventure', 'Drama', 'History', 'War']",Master and Commander: The Far Side of the World
+"['Action', 'Science Fiction', 'Thriller']",Replicant
+"['Action', 'Science Fiction', 'Thriller']",The One
+"['Adventure', 'Family', 'Fantasy']",The Dark Crystal
+"['Horror', 'Thriller']",Dead Calm
+"['Action', 'Adventure', 'Thriller']",Never Say Never Again
+"['Drama', 'History', 'Thriller']",The Courier
+"['Drama', 'Thriller']",A Perfect Man
+"['Drama', 'Thriller', 'War']",Eye in the Sky
+"['Adventure', 'Fantasy', 'Drama']",The Fall
+"['Animation', 'Family', 'Fantasy']",Barbie Fairytopia: Mermaidia
+"['Action', 'Horror', 'Science Fiction', 'Thriller']",Universal Soldier: Day of Reckoning
+"['Drama', 'Horror', 'Music']",Sweeney Todd: The Demon Barber of Fleet Street
+['Comedy'],Duplex
+"['Crime', 'Drama']",Dheepan
+['Comedy'],The Worst Week of My Life
+"['Horror', 'Thriller']",Pearl
+"['Romance', 'Comedy']",To All the Boys: Always and Forever
+"['Action', 'Adventure', 'Science Fiction']",Power Rangers
+['Drama'],Zabriskie Point
+"['Comedy', 'Crime', 'Mystery']",Mais qui a tué Pamela Rose ?
+"['Action', 'Adventure']",Tomb Raider
+"['Comedy', 'Drama']",Monsieur Lazhar
+"['Western', 'History']",Fort Apache
+"['Action', 'Adventure', 'Fantasy']",Pirates of the Caribbean: Dead Men Tell No Tales
+"['Drama', 'History', 'War']",Tolkien
+"['Action', 'Thriller']",Braven
+"['Horror', 'Mystery', 'Thriller']",The Stepfather
+"['Action', 'Crime', 'Thriller']",The Killer
+['Comedy'],Meatballs
+"['Comedy', 'Romance']",Barefoot in the Park
+"['Comedy', 'Drama']",Georgia Rule
+"['Comedy', 'Drama', 'War']",Stalag 17
+"['Crime', 'Drama', 'Mystery', 'Romance']",All Good Things
+"['Comedy', 'Fantasy', 'Romance']",Midnight in Paris
+"['Action', 'Romance', 'Thriller']",Entrapment
+"['Comedy', 'Drama', 'Family', 'Romance']",Ice Princess
+"['Crime', 'Drama', 'War']",The Counterfeiters
+"['Action', 'War']",Heartbreak Ridge
+"['Horror', 'Thriller']",Child's Play 3
+"['Action', 'Adventure', 'Fantasy']",Iron Mask
+"['Comedy', 'Drama']",Dry
+"['Horror', 'Science Fiction']",Color Out of Space
+"['Action', 'Adventure', 'Science Fiction']",The Electric State
+"['Crime', 'Drama', 'History', 'Thriller', 'TV Movie']",Citizen X
+"['Comedy', 'Crime', 'Thriller']",The Ref
+"['Comedy', 'Family', 'Romance']",3 Men and a Little Lady
+"['Action', 'Horror', 'Thriller']",Revenge
+"['Drama', 'Mystery', 'Romance', 'Thriller']",Safe Haven
+"['Action', 'Fantasy']",The Old Guard
+"['Action', 'Adventure', 'Science Fiction']",Avengers: Age of Ultron
+"['Animation', 'Comedy', 'Family']","Maggie Simpson in ""The Longest Daycare"""
+"['Action', 'Comedy', 'Drama', 'Romance']",Charlie Countryman
+"['Adventure', 'Animation', 'Family', 'Fantasy']",Tinker Bell and the Legend of the NeverBeast
+"['Action', 'Thriller']",The Punisher
+"['Action', 'Thriller']",Kill
+"['Action', 'Horror', 'Science Fiction']",Blade
+"['Adventure', 'Animation', 'Drama', 'Family']",The Fox and the Hound
+"['Crime', 'Drama', 'History']",Public Enemies
+"['Action', 'Drama', 'History']",Outlaw King
+"['Animation', 'Adventure', 'Comedy', 'Family']",Cars 2
+"['Comedy', 'Romance']",The Valet
+"['Comedy', 'Thriller']",The Rat Catcher
+"['Crime', 'Drama', 'Horror', 'Thriller']",Frailty
+"['Action', 'Thriller']",Daughter of the Wolf
+"['Drama', 'Horror', 'Science Fiction']",Splice
+"['Drama', 'Romance']",Howards End
+"['Adventure', 'Family', 'Fantasy', 'Romance']",Stardust
+"['Adventure', 'Mystery']",Young Sherlock Holmes
+"['Drama', 'Romance']",Three Steps Over Heaven
+"['Adventure', 'Drama', 'War']",Inglourious Basterds
+['Comedy'],Daddy's Home
+"['Action', 'Adventure', 'Science Fiction']",Terminator Genisys
+"['Comedy', 'Drama', 'Romance']",One Day
+"['Comedy', 'Drama', 'Romance']",The Artist
+"['Action', 'Adventure', 'Drama', 'History']",Hero
+"['Comedy', 'Drama', 'Thriller']",Parasite
+['Drama'],Close
+"['Drama', 'History', 'War']",A Hidden Life
+"['Comedy', 'Music', 'Romance']",Mamma Mia!
+"['Animation', 'Comedy', 'Family', 'Fantasy']",The Grinch
+"['Action', 'Horror', 'Science Fiction']",The Rezort
+"['Comedy', 'Romance']",Tod@s Caen
+"['Comedy', 'Drama', 'Family']",Miracle on 34th Street
+"['Horror', 'Thriller']",The Remaining
+"['Comedy', 'Family', 'Music', 'TV Movie']",The Cheetah Girls: One World
+"['Action', 'Thriller']",Olympus Has Fallen
+"['Drama', 'Music', 'Romance']",Flashdance
+"['Action', 'Drama']",Hands of Stone
+['Comedy'],La matassa
+['Comedy'],The Magnificent One

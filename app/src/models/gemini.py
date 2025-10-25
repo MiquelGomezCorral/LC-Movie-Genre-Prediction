@@ -70,6 +70,10 @@ def generate_prompt(df_train: pd.DataFrame, df_batch: pd.DataFrame, genres_str: 
     
     return prompt
 
+def print_all_models():
+    for model in genai.list_models():
+        if 'generateContent' in model.supported_generation_methods:
+            print(model.name)
 
 # ==============================================================
 #                           CLASSIFY
@@ -100,7 +104,7 @@ def classify_movies_batch(
 
         try:
             prompt = generate_prompt(df_train, batch, genres_str)
-            results.extend(classify_with_model(model, prompt))
+            results.append(classify_with_model(model, prompt))
 
         except Exception as e:
             print(f"Error in batch {i}: {e}")

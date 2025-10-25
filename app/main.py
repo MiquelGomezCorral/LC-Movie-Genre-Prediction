@@ -5,7 +5,7 @@ import dotenv
 from maikol_utils.other_utils import args_to_dataclass
 from src.config import Configuration
 from src.data import prepare_data_train
-from src.scripts import train, predict_and_metrics
+from src.scripts import train, predict_and_metrics, predict_gemini
 
 def cmd_train(args):
     CONFIG: Configuration = args_to_dataclass(args, Configuration)
@@ -15,6 +15,10 @@ def cmd_train(args):
     model = train(X_train, y_train)
     metrics = predict_and_metrics(model, X_val, y_val)
     print(metrics)
+
+def cmd_predict_gemini(args):
+    CONFIG: Configuration = args_to_dataclass(args, Configuration)
+    predict_gemini(CONFIG, args.validation)
 
 def cmd_test(args):
     """Call test functions."""
@@ -40,7 +44,16 @@ if __name__ == "__main__":
     )
     p_train.set_defaults(func=cmd_train)
 
-
+    # ======================================================================================
+    #                                       gemini
+    # ======================================================================================
+    p_gemini = subparsers.add_parser("gemini", help="Gemini script to predict test")
+    p_gemini.add_argument(
+        "-v", "--validation", default=False, action="store_true", 
+        help="Predict for validation set instead of test set"
+    )
+    p_gemini.set_defaults(func=cmd_predict_gemini)
+    
     # ======================================================================================
     #                                       test
     # ======================================================================================
