@@ -1,17 +1,19 @@
 from xgboost import XGBClassifier
-from sklearn.multioutput import MultiOutputClassifier
+from sklearn.multiclass import OneVsRestClassifier
+from sklearn.svm import LinearSVC
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.linear_model import LogisticRegression, SGDClassifier
 
 def train(X_train, y_train):
-    xgb_model = MultiOutputClassifier(
-        XGBClassifier(
-            n_estimators=300,
-            learning_rate=0.01,
-            max_depth=6,
-            subsample=0.8,
-            colsample_bytree=0.8,
-            random_state=42,
-            verbosity=2
-        )
+    xgb_model = OneVsRestClassifier(
+        LogisticRegression(
+            max_iter=10000,
+            C=0.5,  # Regularización
+            class_weight='balanced',
+            solver='newton-cg',
+            tol=1e-5
+        ),
+        n_jobs=-1
     )
     xgb_model.fit(X_train, y_train)
 

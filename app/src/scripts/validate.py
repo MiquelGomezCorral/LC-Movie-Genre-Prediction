@@ -1,5 +1,5 @@
 from sklearn.metrics import accuracy_score, hamming_loss, precision_recall_fscore_support
-
+import numpy as np
 def compute_metrics(labels, preds):
     precision, recall, f1, _ = precision_recall_fscore_support(
     labels, preds, average="macro", zero_division=0
@@ -16,7 +16,8 @@ def compute_metrics(labels, preds):
 
 def predict_and_metrics(model, X_val, y_val):
     y_pred = model.predict(X_val)
-
+    print(y_pred[:5])
+    print(y_val[:5])
     metrics = compute_metrics(y_val, y_pred)
 
     return metrics
