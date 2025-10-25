@@ -5,14 +5,14 @@ everywhere and considered configuration.
 """
 import os
 import dataclasses
-from dataclasses import dataclass
+from dataclasses import dataclass, field
 from argparse import Namespace
 
 @dataclass 
 class Configuration:
     """Configuration class for the project."""
 
-    DATA_FOLDER: str = os.path.join("..", "data", "raw")
+    DATA_FOLDER: str = "data/"
     PROCESSED_FOLDER: str = os.path.join("..", "data", "processed")
     LOGS_FOLDER: str = os.path.join("..", "logs")
     MODELS_FOLDER: str = os.path.join("..", "models")
@@ -21,7 +21,11 @@ class Configuration:
     create_folders: bool = False  # Whether to create folders at init
 
     # =================================== DATA ======================================
-    raw_data_head_path: str = os.path.join(DATA_FOLDER, "raw_data_head.csv")
+    train_data: str = os.path.join(DATA_FOLDER, "dataset_train.csv")
+    test_data: str = os.path.join(DATA_FOLDER, "dataset_test.csv")
+
+    label: str = "genre"
+    columns: list = field(default_factory=list)
 
     # ================================== EXPERIMENTS ======================================
     run_name: str = "lstm_model"

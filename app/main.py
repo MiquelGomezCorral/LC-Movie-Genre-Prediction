@@ -4,20 +4,21 @@ import argparse
 import dotenv
 from maikol_utils.other_utils import args_to_dataclass
 from src.config import Configuration
-from src.scripts import example
-
-def cmd_read_extract(args: argparse.Namespace):
-    """Call read_extract_from_config_list with the given args."""
-    CONFIG: Configuration = args_to_dataclass(args, Configuration)
-    ...
+from src.data import prepare_data_train
+from src.scripts import train, predict_and_metrics
 
 def cmd_train(args):
     CONFIG: Configuration = args_to_dataclass(args, Configuration)
-    example(CONFIG)
+    CONFIG.columns = ["movie_name","description"]
+    X_train, X_val, y_train, y_val = prepare_data_train(path = CONFIG.train_data, bag_X=CONFIG.columns, label=CONFIG.label)
+
+    model = train(X_train, y_train)
+    metrics = predict_and_metrics(model, X_val, y_val)
+    print(metrics)
 
 def cmd_test(args):
     """Call test functions."""
-    example()
+    pass
 
 # ======================================================================================
 #                                       ARGUMENTS
@@ -29,19 +30,6 @@ if __name__ == "__main__":
     parser.add_argument("--seed", type=int, default=42, help="Random seed (default: 42)")
 
     subparsers = parser.add_subparsers(dest="function", required=True)
-
-    # ======================================================================================
-    #                                       read_extract
-    # ======================================================================================
-    p_read = subparsers.add_parser("read-extract", help="Read and extract from config list")
-    p_read.add_argument(
-        "-d", "--dataset_name", type=str, default="Nuelas", help="Name of raw data folder"
-    )
-    p_read.add_argument("-m", "--max_files", type=int, default=None, help="Max files to load")
-    p_read.add_argument(
-        "-l", "--use_llm", action="store_false", default=True, help="Disable LLM extraction"
-    )
-    p_read.set_defaults(func=cmd_read_extract)
 
     # ======================================================================================
     #                                       train
