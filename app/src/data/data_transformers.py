@@ -20,13 +20,14 @@ class TransformerDataset(Dataset):
     def __getitem__(self, idx):
         item = self.dataset[idx]
         text = item["text"]
-        label = item.get("label")
+        labels = item["labels"]
 
         enc = self.tokenizer(
             text,
             truncation=True,
             max_length=self.max_length,
+            padding="max_length"
         )
 
-        enc["labels"] = label
+        enc["labels"] = torch.tensor(labels, dtype=torch.float)
         return enc
