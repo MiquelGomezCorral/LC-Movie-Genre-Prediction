@@ -14,3 +14,4 @@ from .gemini import (
     classify_movies_batch,
     print_all_models
 )
+from .transformers import TransformerMultiLabelTrainer

@@ -4,17 +4,28 @@ import argparse
 import dotenv
 from maikol_utils.other_utils import args_to_dataclass
 from src.config import Configuration
-from src.data import prepare_data_train
+from src.data import prepare_data_train, prepare_data_train_transformer
 from src.scripts import train, predict_and_metrics, predict_gemini
+from src.models import TransformerMultiLabelTrainer
 
 def cmd_train(args):
     CONFIG: Configuration = args_to_dataclass(args, Configuration)
     CONFIG.columns = ["movie_name","description"]
-    X_train, X_val, y_train, y_val = prepare_data_train(path = CONFIG.train_data, bag_X=CONFIG.columns, label=CONFIG.label)
+
+    X_train, X_val, y_train, y_val = prepare_data_train(CONFIG)
 
     model = train(X_train, y_train)
     metrics = predict_and_metrics(model, X_val, y_val)
     print(metrics)
+
+def cmd_train_transformer(args):
+    CONFIG: Configuration = args_to_dataclass(args, Configuration)
+    CONFIG.columns = ["movie_name","description"]
+
+    train_dataset, val_dataset = prepare_data_train_transformer(CONFIG)
+    model = TransformerMultiLabelTrainer("bert-base-uncased")
+
+    model.train(train_dataset, val_dataset)
 
 def cmd_predict_gemini(args):
     CONFIG: Configuration = args_to_dataclass(args, Configuration)
@@ -40,9 +51,15 @@ if __name__ == "__main__":
     # ======================================================================================
     p_train = subparsers.add_parser("train", help="Train script with any code")
     p_train.add_argument(
-        "-r", "--run_name", type=str, default=None, help="Name of run"
+        "-t", "--transformer", type=str, default=None, help="Name of run"
     )
     p_train.set_defaults(func=cmd_train)
+
+    # ======================================================================================
+    #                                       gemini
+    # ======================================================================================
+    p_transformer = subparsers.add_parser("transformer", help="Transformers de momento")
+    p_transformer.set_defaults(func=cmd_train_transformer)
 
     # ======================================================================================
     #                                       gemini
