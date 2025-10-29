@@ -8,10 +8,12 @@ import nltk
 from nltk.stem import PorterStemmer
 from nltk.tokenize import word_tokenize
 from nltk.corpus import stopwords
+import joblib
 
 from src.config import Configuration
 
 nltk.download('stopwords')
+nltk.download('punkt_tab')
 stemmer = PorterStemmer()
 stop_words = stopwords.words('english')
 
@@ -20,7 +22,7 @@ def prepare_labels(df: pd.DataFrame, label: str) -> np.ndarray:
 
     mlb = MultiLabelBinarizer()
     y = mlb.fit_transform(df["labels"].tolist())
-
+    joblib.dump(mlb,"models/binarizer.pkl")
     return y
 
 def prepare_text_transformer(df: pd.DataFrame, cols: list):
@@ -34,25 +36,30 @@ def tokenizer_text(text):
     text = [stemmer.stem(word) for word in text if word.isalpha() and word not in stop_words]
     return text
     
-def prepare_text(df: pd.DataFrame, cols: list) -> np.ndarray:
+def prepare_text(df: pd.DataFrame, cols: list, vectorizer = None) -> np.ndarray:
     df["text"] = df[cols].apply(lambda x: " ".join(x.dropna().astype(str)), axis=1)
+    print(vectorizer)
+    if vectorizer is None:
+        vectorizer = TfidfVectorizer(
+            analyzer='word',
+            max_features=15000,
+            ngram_range=(1, 2),
+            lowercase=True,
+            norm='l2',
+            tokenizer=tokenizer_text,        
+        )
 
-    vectorizer = TfidfVectorizer(
-        analyzer='word',
-        max_features=15000,
-        ngram_range=(1, 2),
-        lowercase=True,
-        norm='l2',
-        tokenizer=tokenizer_text,        
-    )
-
-    X = vectorizer.fit_transform(df["text"].tolist())
+        X = vectorizer.fit_transform(df["text"].tolist())
+        joblib.dump(vectorizer, "models/tfidf.pkl")
+        
+    else:
+        X = vectorizer.transform(df["text"].tolist())
 
     return X
 
 def split(X, y):
     X_train, X_val, y_train, y_val = train_test_split(
-        X, y, test_size=0.1, random_state=42
+        X, y, test_size=0.15, random_state=42
     )
 
     return X_train, X_val, y_train, y_val
@@ -92,4 +99,15 @@ def prepare_data_train_transformer(cfg: Configuration):
 
     return train_dataset, val_dataset
 
+def prepare_data_test(cfg: Configuration):
+    df = pd.read_csv(cfg.test_data)
     
+    vectorizer = joblib.load("models/tfidf.pkl")
+    X_test = prepare_text(df, cfg.columns, vectorizer)
+    return X_test
+
+def prepare_data_test_transformer(cfg:Configuration):
+    df = pd.read_csv(cfg.test_data)
+
+    X_test = prepare_text_transformer(df, cfg.columns)
+    return X_test

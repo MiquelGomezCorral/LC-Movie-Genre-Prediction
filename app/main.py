@@ -1,11 +1,12 @@
 """Main file for scripts with arguments and call other functions."""
-
+import pandas as pd
+import os
 import argparse
 import dotenv
 from maikol_utils.other_utils import args_to_dataclass
 from src.config import Configuration
-from src.data import prepare_data_train, prepare_data_train_transformer
-from src.scripts import train, predict_and_metrics, predict_gemini
+from src.data import prepare_data_train, prepare_data_train_transformer, prepare_data_test, prepare_data_test_transformer
+from src.scripts import test, train, predict_and_metrics, predict_gemini
 from src.models import TransformerMultiLabelTrainer
 
 def cmd_train(args):
@@ -23,7 +24,9 @@ def cmd_train_transformer(args):
     CONFIG.columns = ["movie_name","description"]
 
     train_dataset, val_dataset = prepare_data_train_transformer(CONFIG)
-    model = TransformerMultiLabelTrainer("bert-base-uncased")
+    model_name = "results/last_model"
+    tokenizer_name = "FacebookAI/roberta-large-mnli"
+    model = TransformerMultiLabelTrainer(model_name, tokenizer_name)
 
     model.train(train_dataset, val_dataset)
 
@@ -33,7 +36,35 @@ def cmd_predict_gemini(args):
 
 def cmd_test(args):
     """Call test functions."""
-    pass
+    CONFIG: Configuration = args_to_dataclass(args, Configuration)
+    CONFIG.columns = ["movie_name","description"]
+
+    X_test = prepare_data_test(CONFIG)
+    y_pred = test(X_test)
+    
+    df = pd.read_csv(CONFIG.test_data)
+    df["genre"] = y_pred
+    os.makedirs("RL", exist_ok=True)  
+    df.to_csv("RL/regresion_logistica.csv", index=False)
+    
+def cmd_test_transformers(args):
+    """Call test functions."""
+    CONFIG: Configuration = args_to_dataclass(args, Configuration)
+    CONFIG.columns = ["movie_name","description"]
+
+    X_test = prepare_data_test_transformer(CONFIG)
+    
+    model_name = "../results/roberta667/best_model"
+    tokenizer_name = "FacebookAI/roberta-large-mnli"
+    model = TransformerMultiLabelTrainer(model_name, tokenizer_name)
+
+    y_pred = model.test(X_test)
+
+    df = pd.read_csv(CONFIG.test_data)
+    df["genre"] = y_pred
+    os.makedirs("transformers", exist_ok=True)
+    df.to_csv("transformers/transformers.csv", index=False)
+
 
 # ======================================================================================
 #                                       ARGUMENTS
@@ -77,6 +108,9 @@ if __name__ == "__main__":
     p_test = subparsers.add_parser("test", help="Test script with any code")
     p_test.set_defaults(func=cmd_test)
 
+
+    p_test = subparsers.add_parser("test_t", help="Test script with any code")
+    p_test.set_defaults(func=cmd_test_transformers)
     # ======================================================================================
     #                                       CALL
     # ======================================================================================

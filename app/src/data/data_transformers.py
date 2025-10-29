@@ -10,7 +10,7 @@ class TransformerDataset(Dataset):
         dataset
         ):
         self.dataset = dataset
-        self.max_length = 128
+        self.max_length = 256
         self.tokenizer = None
 
     def __len__(self):

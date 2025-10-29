@@ -32,7 +32,7 @@ class Configuration:
 
     # ================================== EXPERIMENTS ======================================
     gemini_prediction_path: str = os.path.join(LOGS_FOLDER, "gemini_prediction.csv")
-    gemini_results_path: str = os.path.join(LOGS_FOLDER, "gemini_results.csv")
+    gemini_results_path: str = os.path.join(LOGS_FOLDER, "gemini_results_2.5-flash.csv")
     gemini_scores_path: str = os.path.join(LOGS_FOLDER, "gemini_scores.json")
 
 

@@ -104,7 +104,11 @@ def classify_movies_batch(
 
         try:
             prompt = generate_prompt(df_train, batch, genres_str)
-            results.append(classify_with_model(model, prompt))
+            results.append((
+                batch["movie_name"].values,
+                batch["description"].values,
+                classify_with_model(model, prompt)
+            ))
 
         except Exception as e:
             print(f"Error in batch {i}: {e}")
