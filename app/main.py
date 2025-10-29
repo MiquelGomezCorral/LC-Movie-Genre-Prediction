@@ -24,7 +24,7 @@ def cmd_train_transformer(args):
     CONFIG.columns = ["movie_name","description"]
 
     train_dataset, val_dataset = prepare_data_train_transformer(CONFIG)
-    model_name = "results/last_model"
+    model_name = "FacebookAI/roberta-large-mnli"
     tokenizer_name = "FacebookAI/roberta-large-mnli"
     model = TransformerMultiLabelTrainer(model_name, tokenizer_name)
 
