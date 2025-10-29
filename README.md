@@ -1,9 +1,32 @@
 # LC-Movie-Genre-Prediction
+
 Trabajo de LC
 
+# Structure
+```bash
+├── app
+│   ├── main.py                             # APP entry point
+│   ├── src                                 # Source code
+│   ├── setup.py                            # Setup file
+│   ├── gemini                              # Results gemini
+│   ├── RL                                  # Results Logistic Regression
+│   └── transformer                         # Results Transformers
+├── data                                    # Proyect data files             
+│   └── ...
+├── example.env                             # Example env for gemini API
+├── LICENSE
+├── logs
+│   └── ...
+├── notebooks
+│   └── ...
+├── README.md
+└── requirements.txt
+```
 
-# User project
+# Use project
+
 - Create local env
+
 ```bash
  python3.12 -m venv venv
  source venv/bin/activate
