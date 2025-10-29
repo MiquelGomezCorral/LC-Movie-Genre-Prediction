@@ -80,7 +80,7 @@ if __name__ == "__main__":
     # ======================================================================================
     #                                       train
     # ======================================================================================
-    p_train = subparsers.add_parser("train", help="Train script with any code")
+    p_train = subparsers.add_parser("train", help="Train script classic models")
     p_train.add_argument(
         "-t", "--transformer", type=str, default=None, help="Name of run"
     )
@@ -89,7 +89,7 @@ if __name__ == "__main__":
     # ======================================================================================
     #                                       train_transformer
     # ======================================================================================
-    p_transformer = subparsers.add_parser("transformer", help="Transformers de momento")
+    p_transformer = subparsers.add_parser("transformer", help="Train transformers")
     p_transformer.set_defaults(func=cmd_train_transformer)
 
     # ======================================================================================
@@ -105,11 +105,13 @@ if __name__ == "__main__":
     # ======================================================================================
     #                                       test
     # ======================================================================================
-    p_test = subparsers.add_parser("test", help="Test script with any code")
+    p_test = subparsers.add_parser("test", help="Test script classic models")
     p_test.set_defaults(func=cmd_test)
 
-
-    p_test = subparsers.add_parser("test_t", help="Test script with any code")
+    # ======================================================================================
+    #                                       test_transformer
+    # ======================================================================================
+    p_test = subparsers.add_parser("test_t", help="Test transformers")
     p_test.set_defaults(func=cmd_test_transformers)
     # ======================================================================================
     #                                       CALL
