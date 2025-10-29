@@ -87,7 +87,7 @@ if __name__ == "__main__":
     p_train.set_defaults(func=cmd_train)
 
     # ======================================================================================
-    #                                       gemini
+    #                                       train_transformer
     # ======================================================================================
     p_transformer = subparsers.add_parser("transformer", help="Transformers de momento")
     p_transformer.set_defaults(func=cmd_train_transformer)
