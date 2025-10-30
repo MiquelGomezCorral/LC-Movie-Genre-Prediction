@@ -38,7 +38,7 @@ def tokenizer_text(text):
     
 def prepare_text(df: pd.DataFrame, cols: list, vectorizer = None) -> np.ndarray:
     df["text"] = df[cols].apply(lambda x: " ".join(x.dropna().astype(str)), axis=1)
-    print(vectorizer)
+    
     if vectorizer is None:
         vectorizer = TfidfVectorizer(
             analyzer='word',
@@ -48,8 +48,9 @@ def prepare_text(df: pd.DataFrame, cols: list, vectorizer = None) -> np.ndarray:
             norm='l2',
             tokenizer=tokenizer_text,        
         )
-
+        
         X = vectorizer.fit_transform(df["text"].tolist())
+        print(len(vectorizer.vocabulary_))
         joblib.dump(vectorizer, "models/tfidf.pkl")
         
     else:
