@@ -3,8 +3,8 @@ title:
   es: Clasificación Multi-Etiqueta de Géneros Cinematográficos (Regresión Logística, RoBERTa, Gemini)
 finished: finished
 descriptionShort:
-  en: Multi-label classification of 18 movie genres from title and plot summary. Compares three approaches: classical logistic regression (scikit-learn), transformers (DistilBERT/RoBERTa with HuggingFace Trainer), and few-shot prompting with Gemini (Google Generative AI) using structured JSON output.
-  es: Clasificación multi-etiqueta de 18 géneros de películas a partir del título y la sinopsis. Compara tres enfoques: regresión logística clásica (scikit-learn), transformers (DistilBERT/RoBERTa con Trainer de HuggingFace), y few-shot prompting con Gemini (Google Generative AI) usando salida JSON estructurada.
+  en: "Multi-label classification of 18 movie genres from title and plot summary. Compares three approaches: classical logistic regression (scikit-learn), transformers (DistilBERT/RoBERTa with HuggingFace Trainer), and few-shot prompting with Gemini (Google Generative AI) using structured JSON output."
+  es: "Clasificación multi-etiqueta de 18 géneros de películas a partir del título y la sinopsis. Compara tres enfoques: regresión logística clásica (scikit-learn), transformers (DistilBERT/RoBERTa con Trainer de HuggingFace), y few-shot prompting con Gemini (Google Generative AI) usando salida JSON estructurada."
 descriptionLong:
   en: |
     Academic project for multi-label movie genre classification (18 classes: Action, Comedy, Drama, Horror, Sci-Fi, etc.) using title and plot description. Implements and compares three methodologies: (1) Classical Logistic Regression with MultiLabelBinarizer (scikit-learn), (2) Transformer models — DistilBERT and RoBERTa — fine-tuned for multi-label classification with HuggingFace Trainer, 50 epochs, early stopping, and F1 metric, (3) Gemini (Google Generative AI models) with few-shot prompting: a prompt is built with train set examples and structured JSON classification is requested using Enum types for genres. Batch processing with retries on API errors. Includes analysis notebooks with F1-per-epoch visualizations and cross-method comparisons.
