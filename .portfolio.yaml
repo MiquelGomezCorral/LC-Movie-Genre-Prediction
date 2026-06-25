@@ -22,12 +22,16 @@ screenShoots:
   - readme-images/results-transformers.png
   - readme-images/roberta.png
   - readme-images/thumb-nail.png
+date:
+  en: Oct 2025
+  es: Oct 2025
 keywords:
   en: [movie genre, multi-label classification, film categorization, plot summary, RoBERTa, DistilBERT, Gemini prompting, few-shot, text classification, NLP, IMDb]
   es: [género de película, clasificación multi-etiqueta, categorización de cine, sinopsis, RoBERTa, DistilBERT, prompting con Gemini, few-shot, clasificación de texto, NLP, IMDb]
 slug: LC-Movie-Genre-Prediction
 order: 52
 featured: false
+
 
 
 
