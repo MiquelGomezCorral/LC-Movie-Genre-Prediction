@@ -12,6 +12,17 @@ descriptionLong:
     Proyecto académico de clasificación multi-etiqueta de géneros cinematográficos (18 clases: Action, Comedy, Drama, Horror, Sci-Fi, etc.) usando título y descripción de la trama. Implementa y compara tres metodologías: (1) Regresión Logística clásica con MultiLabelBinarizer (scikit-learn), (2) Modelos transformer — DistilBERT y RoBERTa — fine-tuneados para clasificación multi-etiqueta con HuggingFace Trainer, 50 épocas, early stopping y métrica F1, (3) Gemini (modelos de Google Generative AI) con few-shot prompting: se construye un prompt con ejemplos del train set y se solicita clasificación estructurada en JSON usando tipos Enum para los géneros. Procesamiento por lotes con reintentos ante errores de API. Incluye notebooks de análisis con visualizaciones de F1 por época y comparativas entre métodos.
 technologies: [python, jupyter, sklearn, huggingface, pandas]
 tags: [class]
+logo: readme-images/LLMs.png
+screenShoots:
+  - readme-images/LLMs.png
+  - readme-images/clasic.png
+  - readme-images/conclusion.png
+  - readme-images/results-best.png
+  - readme-images/results-clasic.png
+  - readme-images/results-transformers.png
+  - readme-images/roberta.png
+  - readme-images/thumb-nail.png
 slug: LC-Movie-Genre-Prediction
 order: 52
 featured: false
+
