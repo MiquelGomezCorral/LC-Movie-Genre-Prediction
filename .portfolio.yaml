@@ -10,7 +10,7 @@ descriptionLong:
     Academic project for multi-label movie genre classification (18 classes: Action, Comedy, Drama, Horror, Sci-Fi, etc.) using title and plot description. Implements and compares three methodologies: (1) Classical Logistic Regression with MultiLabelBinarizer (scikit-learn), (2) Transformer models — DistilBERT and RoBERTa — fine-tuned for multi-label classification with HuggingFace Trainer, 50 epochs, early stopping, and F1 metric, (3) Gemini (Google Generative AI models) with few-shot prompting: a prompt is built with train set examples and structured JSON classification is requested using Enum types for genres. Batch processing with retries on API errors. Includes analysis notebooks with F1-per-epoch visualizations and cross-method comparisons.
   es: |
     Proyecto académico de clasificación multi-etiqueta de géneros cinematográficos (18 clases: Action, Comedy, Drama, Horror, Sci-Fi, etc.) usando título y descripción de la trama. Implementa y compara tres metodologías: (1) Regresión Logística clásica con MultiLabelBinarizer (scikit-learn), (2) Modelos transformer — DistilBERT y RoBERTa — fine-tuneados para clasificación multi-etiqueta con HuggingFace Trainer, 50 épocas, early stopping y métrica F1, (3) Gemini (modelos de Google Generative AI) con few-shot prompting: se construye un prompt con ejemplos del train set y se solicita clasificación estructurada en JSON usando tipos Enum para los géneros. Procesamiento por lotes con reintentos ante errores de API. Incluye notebooks de análisis con visualizaciones de F1 por época y comparativas entre métodos.
-technologies: [python, jupyter, sklearn, huggingface, pandas]
+technologies: [python, jupyter, sklearn, huggingface, pandas, ai]
 tags: [class]
 logo: readme-images/LLMs.png
 screenShoots:
@@ -31,6 +31,7 @@ keywords:
 slug: LC-Movie-Genre-Prediction
 order: 52
 featured: false
+
 
 
 
