@@ -1,6 +1,6 @@
 title:
-  en: Multi-Label Movie Genre Classification (Logistic Regression, RoBERTa, Gemini)
-  es: Clasificación Multi-Etiqueta de Géneros Cinematográficos (Regresión Logística, RoBERTa, Gemini)
+  en: Multi-Label Movie Genre Classification
+  es: Clasificación Multi-Etiqueta de Géneros Cinematográficos
 finished: finished
 descriptionShort:
   en: "Multi-label classification of 18 movie genres from title and plot summary. Compares three approaches: classical logistic regression (scikit-learn), transformers (DistilBERT/RoBERTa with HuggingFace Trainer), and few-shot prompting with Gemini (Google Generative AI) using structured JSON output."
@@ -28,5 +28,6 @@ keywords:
 slug: LC-Movie-Genre-Prediction
 order: 52
 featured: false
+
 
 
