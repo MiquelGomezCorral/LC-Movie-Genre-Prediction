@@ -29,7 +29,7 @@ keywords:
   en: [movie genre, multi-label classification, film categorization, plot summary, RoBERTa, DistilBERT, Gemini prompting, few-shot, text classification, NLP, IMDb]
   es: [género de película, clasificación multi-etiqueta, categorización de cine, sinopsis, RoBERTa, DistilBERT, prompting con Gemini, few-shot, clasificación de texto, NLP, IMDb]
 slug: LC-Movie-Genre-Prediction
-order: 52
+relevancy: 45
 featured: false
 
 
